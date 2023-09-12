@@ -1,0 +1,28 @@
+{
+	"cSpell.words": [
+		"Nuxt",
+		"nuxtjs",
+		"tailwindcss"
+	],
+	"prettier.configPath": ".prettierrc",
+	"cSpell.ignorePaths": [
+		"package-lock.json",
+		"node_modules",
+		"vscode-extension",
+		".git/objects",
+		".vscode",
+		".vscode-insiders",
+		".nuxt",
+		"tsconfig.json",
+		"tsconfig.eslint.json",
+		".eslintrc.js",
+		".prettierrc",
+		"tailwind.config.js",
+	],
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+}

@@ -1,0 +1,67 @@
+{
+	"name": "Vue (Community)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"streetsidesoftware.code-spell-checker",
+				"patbenatar.advanced-new-file",
+				"formulahendry.auto-rename-tag",
+				"jeff-hykin.better-shellscript-syntax",
+				"alefragnani.Bookmarks",
+				"formulahendry.code-runner",
+				"be5invis.vscode-custom-css",
+				"ms-azuretools.vscode-docker",
+				"cschlosser.doxdocgen",
+				"hediet.vscode-drawio",
+				"usernamehw.errorlens",
+				"GrapeCity.gc-excelviewer",
+				"sleistner.vscode-fileutils",
+				"mhutchie.git-graph",
+				"GitHub.copilot",
+				"codezombiech.gitignore",
+				"eamodio.gitlens",
+				"kisstkondoros.vscode-gutter-preview",
+				"wix.vscode-import-cost",
+				"oderwat.indent-rainbow",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"yzhang.markdown-all-in-one",
+				"shd101wyy.markdown-preview-enhanced",
+				"goessner.mdmath",
+				"DavidAnson.vscode-markdownlint",
+				"zhuangtongfa.material-theme",
+				"quicktype.quicktype",
+				"christian-kohler.path-intellisense",
+				"mechatroner.rainbow-csv",
+				"stylelint.vscode-stylelint",
+				"Gruntfuggly.todo-tree",
+				"vscode-icons-team.vscode-icons",
+				"xUnn4m3DD.vscode-paint",
+				"tomoki1207.pdf",
+				"esbenp.prettier-vscode",
+				"christian-kohler.npm-intellisense",
+				"Vue.volar",
+				"hollowtree.vue-snippets",
+				"mgmcdermott.vscode-language-babel",
+				"rvest.vs-code-prettier-eslint",
+				"Vue.vscode-typescript-vue-plugin",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		8080
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node"
+}
