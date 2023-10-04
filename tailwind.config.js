@@ -4,18 +4,16 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				colbalt: {
-					50: '#8a778e',
-					100: '#806d84',
-					200: '#76637a',
-					300: '#6c5970',
-					400: '#624f66',
-					500: '#58455c',
-					600: '#4e3b52',
-					700: '#443148',
-					800: '#3a273e',
-					900: '#301d34',
-				},
+				primary: '#003a70',
+				secondary: '#e5e5e5',
+				accent: '#03746e',
+				'mutual-blue': '#003a70',
+				'mutual-light-blue': '#105fa8',
+				'mutual-green': '#03746e',
+				'mutual-yellow': '#f5b93c',
+				'mutual-sand': '#fffbf2',
+				'mutual-dark-gray': '#444444',
+				'mutual-gray': '#e5e5e5',
 			},
 		},
 	},
