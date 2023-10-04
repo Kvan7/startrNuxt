@@ -4,5 +4,11 @@ export default defineNuxtConfig({
 	typescript: {
 		strict: true,
 	},
-	devtools: { enabled: true },
+	devtools: {
+		enabled: true,
+
+		timeline: {
+			enabled: true,
+		},
+	},
 });

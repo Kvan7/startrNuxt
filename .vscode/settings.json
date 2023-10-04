@@ -18,6 +18,7 @@
 		".eslintrc.js",
 		".prettierrc",
 		"tailwind.config.js",
+		".devcontainer"
 	],
 	"files.associations": {
 		"*.css": "tailwindcss"

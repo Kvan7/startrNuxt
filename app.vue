@@ -1,3 +1,6 @@
 <template>
-	<div class="bg-green-500 h-full w-full">test content</div>
+	<NuxtLayout>
+		<!-- Markup shared across all pages, ex: NavBar -->
+		<NuxtPage />
+	</NuxtLayout>
 </template>
